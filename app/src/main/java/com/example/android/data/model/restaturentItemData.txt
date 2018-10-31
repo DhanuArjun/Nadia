@@ -1,0 +1,8 @@
+addI    tem(new DataItem(null, "Mutton Balls", "not bad ",
+                "Mutton", 1, 45, " Image2" ));
+        addItem(new DataItem(null, "Chicken kurma", "Very Good product  ",
+                "Chicken", 2, 75, " Image2" ));
+        addItem(new DataItem(null, "Mutton Biryani", "its so damn spicy ",
+                "Mutton", 3, 98, " Image2" ));
+        addItem(new DataItem(null, "Nuggets", "its so damn Good ",
+                "Veg", 4, 98, " Image.jpg" ));
