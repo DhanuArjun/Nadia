@@ -11,7 +11,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static com.example.android.data.sample.SampleDataProvider.dataItemList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,16 +37,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        /*for (DataItem item : dataItemList) {
-            tvOut.append(item.getItemName() + "\n");
-            itemNames.add(item.getCategory());*/
-
         DataItemAdapter adapter = new DataItemAdapter(this, dataItemList);
 
         ListView list = (ListView) findViewById(android.R.id.list);
 
         list.setAdapter(adapter);
-
 
     }
 }
