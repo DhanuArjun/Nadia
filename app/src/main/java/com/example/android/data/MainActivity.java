@@ -2,8 +2,7 @@ package com.example.android.data;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.support.v7.widget.RecyclerView;
 import com.example.android.data.model.DataItem;
 import com.example.android.data.sample.SampleDataProvider;
 
@@ -13,9 +12,6 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
-
-    @SuppressWarnings("FieldCanBeLocal")
-    private TextView tvOut;
 
 
     // import list data items to main activity
@@ -39,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         DataItemAdapter adapter = new DataItemAdapter(this, dataItemList);
 
-        ListView list = (ListView) findViewById(android.R.id.list);
+        RecyclerView recyclerList = (RecyclerView) findViewById(R.id.recycle_id);
 
-        list.setAdapter(adapter);
+        recyclerList.setAdapter(adapter);
 
     }
 }

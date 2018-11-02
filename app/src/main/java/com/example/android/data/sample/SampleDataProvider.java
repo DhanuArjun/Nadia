@@ -10,7 +10,7 @@ import java.util.Map;
 public class SampleDataProvider {
 
     public static List<DataItem> dataItemList;
-    public static Map<String, DataItem> dataItemMap;
+    private static Map<String, DataItem> dataItemMap;
 
     static {
         dataItemList = new ArrayList<>();
@@ -115,7 +115,7 @@ public class SampleDataProvider {
 
     }
 
-    public static void addItem(DataItem item){
+    private static void addItem(DataItem item){
         dataItemList.add(item);
         dataItemMap.put(item.getItemId(), item);
     }
