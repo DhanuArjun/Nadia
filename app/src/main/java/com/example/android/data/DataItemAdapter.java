@@ -18,7 +18,6 @@ import java.util.List;
 
 public class DataItemAdapter extends RecyclerView.Adapter<DataItemAdapter.ViewHolder> {
 
-    public static final String ITEM_ID_KEY = "item_id_key" ;
     public static final String ITEM_ID = "item_id";
     private List<DataItem> mItems;
     private Context mContext;

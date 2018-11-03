@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import com.example.android.data.model.DataItem;
 
@@ -21,6 +22,9 @@ public class ItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_item);
 
 
+        /*Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+*/
         // for single item
         /*String itemId = getIntent().getExtras().getString(DataItemAdapter.ITEM_ID_KEY);
         DataItem item = SampleDataProvider.dataItemMap.get(itemId);*/

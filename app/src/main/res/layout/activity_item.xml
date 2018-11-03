@@ -11,6 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.data.ItemActivity">
 
+
     <TextView
         android:id="@+id/tvItemNameNew"
         android:layout_width="wrap_content"
