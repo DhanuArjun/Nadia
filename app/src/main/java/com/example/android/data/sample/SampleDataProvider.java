@@ -16,14 +16,6 @@ public class SampleDataProvider {
         dataItemList = new ArrayList<>();
         dataItemMap = new HashMap<>();
 
-        addItem(new DataItem(null, "Mutton Balls", "Mutton ",
-                "Mutton is highly recommended", 1, 45, " Mutton.jpg" ));
-        addItem(new DataItem(null, "Chicken kurma", "Chicken",
-                "Very Good product ", 2, 75, " Image2" ));
-        addItem(new DataItem(null, "Mutton Biryani", "Mutton",
-                "its so damn spicy ", 3, 98, " Image2" ));
-        addItem(new DataItem(null, "Nuggets", "Veg",
-                "its so damn Good ", 4, 98, " Image.jpg" ));
         addItem(new DataItem(null, "Quinoa Salmon Salad", "Salads",
                 "Our quinoa salad is served with quinoa, tomatoes, cucumber, scallions, and smoked salmon. Served with your choice of dressing.",
                 1, 12, "quinoa_salad.jpg"));

@@ -4,6 +4,15 @@
     <item
         android:id="@+id/action_signin"
         android:title="@string/sigh_in"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="collapseActionView"/>
+    <!--for preference settings button -->
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/import_to_json"
+        android:title="@string/import_to_json"
+        app:showAsAction="collapseActionView"/>
 
 </menu>
